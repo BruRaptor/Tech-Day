@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
         environment.id = this.usuarioLogin.id
         environment.token = this.usuarioLogin.token
 
-        this.router.navigate(['/login'])
+        this.router.navigate(['/home'])
       },
       error: erro => {
         if(erro.status == 401){

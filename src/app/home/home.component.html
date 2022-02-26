@@ -1,1 +1,96 @@
-<p>home works!</p>
+<div class="conteiner">
+
+  <div class="row d-flex align-items-center bg-top">
+    <div class="col-md-6">
+
+      <div class="row d-flex justify-content-center">
+          <div class=" col-md-6 text-white">
+              <h1 class="fs-55 text-border font-weight-bold border-h1">TECHDAY</h1>
+              <h5 class="fs-18">Blog de notícias tecnológicas diárias, onde você pode compartilhar e se informar em um só lugar!</h5>
+          </div>
+      </div>
+
+          <div class="row d-flex justify-content-center mt-3 mb-5">
+            <div class="col-md-6">
+              <button class="btn btn-light mr-2" data-toggle="modal" data-target="#novaPostagem">Nova Postagem</button>
+              <a class="btn btn-outline-light" href="#noticias">Ver Notícias</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-6 d-flex justify-content-center">
+        <img class="rounded" src="https://cdn.dribbble.com/users/214929/screenshots/4366947/dribbble-shot_6.gif" alt="" width="600px" height="400px">
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="continer mb-5 mt-5" id="noticias">
+
+    <nav>
+      <div class="nav nav-tabs font-weight-bold d-flex justify-content-center" id="nav-tab" role="tablist">
+
+        <a class="nav-link active text-dark" id="nav-noticiasDeHoje-tab" data-toggle="tab" href="#nav-noticiasDeHoje" role="tab" aria-controls="nav-noticiasDeHoje" aria-selected="true">Notícias de Hoje</a>
+
+        <a class="nav-link text-dark" id="nav-noticiasDaSemana-tab" data-toggle="tab" href="#nav-noticiasDaSemana" role="tab" aria-controls="nav-noticiasDaSemana" aria-selected="false">Notícias da Semana</a>
+
+        <a class="nav-link text-dark" id="nav-minhasNoticias-tab" data-toggle="tab" href="#nav-minhasNoticias" role="tab" aria-controls="nav-minhasNoticias" aria-selected="false">Minhas Notícias</a>
+
+      </div>
+    </nav>
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-noticiasDeHoje" role="tabpanel" aria-labelledby="nav-noticiasDeHoje-tab">
+        Notícias de Hoje
+      </div>
+
+      <div class="tab-pane fade" id="nav-noticiasDaSemana" role="tabpanel" aria-labelledby="nav-noticiasDaSemana-tab">
+        Notícias da Semana
+      </div>
+
+      <div class="tab-pane fade" id="nav-minhasNoticias" role="tabpanel" aria-labelledby="nav-minhasNoticias-tab">
+        Minhas Notícias
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="novaPostagem" tabindex="-1" role="dialog" aria-labelledby="modal-dialog modal-dialog-centered" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-dialog modal-dialog-centered">Nova Postagem</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="form-group">
+            <label for="titulo">Título</label>
+            <input type="text" class="form-control" id="titulo" placeholder="Digite o título">
+          </div>
+
+          <div class="form-group">
+            <label for="texto">Texto</label>
+            <textarea class="form-control" name="texto" id="texto" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="texto">Escolha um tema ou  <a data-dismiss="modal" routerLink="/tema">cadastre um novo</a>: </label>
+            <select name="tema" id="tema" class="form-control">
+              <option value="">Temas</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Publicar</button>
+        </div>
+      </div>
+    </div>
+  </div>

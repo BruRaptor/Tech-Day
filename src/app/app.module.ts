@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ThemeComponent } from './theme/theme.component';
 import { RegisterComponent } from './register/register.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     MenuComponent,
     FooterComponent,
     ThemeComponent,
-    RegisterComponent
+    RegisterComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,

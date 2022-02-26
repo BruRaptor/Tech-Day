@@ -1,7 +1,17 @@
 #img-bg{
-  background-image: url('../../assets/img/login.webp');
+  background-image: url('../../assets/img/login.jpg');
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.titulo{
+  font-family: 'Holtwood One SC', serif;
+}
+.border-h1{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000;
+}
+.bg-titulo{
+  background-color: #c4cad0cb;
 }

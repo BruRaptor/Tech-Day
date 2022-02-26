@@ -1,48 +1,49 @@
 <div class="container-fluid">
-  <div class="row d-flex align-items-center">
-    <div class="col-md-6">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-6">
-          <h1 class="text-center mb-3">Entrar</h1>
+  <div class="row">
+    <div class="col-md-12 d-flex justify-content-center" id="img-bg">
 
-          <form>
-          <div class="form-group">
-            <label for="usuario">Usuário:</label>
-            <input
-              class="form-control"
-              type="text"
-              name="usuario"
-              id="usuario"
-              placeholder="Seu usuário"
-              [(ngModel)]="usuarioLogin.usuario"
-            />
+      <div class="col-md-8">
+        <div class="row d-flex justify-content-center font-weight-bold">
+          <div class="col-md-6 bg-titulo rounded mt-5 border border-dark">
+            <h1 class="titulo border-h1 text-primary text-center mb-5 fs-54">TECHDAY</h1>
+            <h2 class="text-center text-primary text-border mb-2 font-weight-bold titulo">Entrar</h2>
+            <form>
+            <div class="form-group">
+              <label for="usuario">Usuário:</label>
+              <input
+                class="form-control"
+                type="text"
+                name="usuario"
+                id="usuario"
+                placeholder="Seu usuário"
+                [(ngModel)]="usuarioLogin.usuario"
+              />
+            </div>
+            <div class="form-group">
+              <label for="senha">Senha:</label>
+              <input
+                class="form-control"
+                type="password"
+                name="senha"
+                id="senha"
+                placeholder="Sua senha"
+                [(ngModel)]="usuarioLogin.senha"
+              />
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary" (click)="login()">Entrar</button>
+            </div></form>
+
+            <hr class="mt-5 mb-5">
+
+            <p class="text-center">
+                Não tem uma conta? <a routerLink="/register">Cadastre-se</a>
+            </p>
           </div>
-          <div class="form-group">
-            <label for="senha">Senha:</label>
-            <input
-              class="form-control"
-              type="password"
-              name="senha"
-              id="senha"
-              placeholder="Sua senha"
-              [(ngModel)]="usuarioLogin.senha"
-            />
-          </div>
-
-          <div class="d-flex justify-content-center">
-              <button type="submit" class="btn btn-success" (click)="login()">Entrar</button>
-          </div></form>
-
-          <hr class="mt-5 mb-5">
-
-          <p class="text-center">
-              Não tem uma conta? <a routerLink="/cadastrar">Cadastre-se</a>
-          </p>
 
         </div>
-      </div>
     </div>
 
-    <div class="col-md-6" id="img-bg"></div>
+    </div>
   </div>
-</div>

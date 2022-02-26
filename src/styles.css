@@ -9,3 +9,7 @@ html{
 .fs-18{
   font-size: 18pt;
 }
+.text-border{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
