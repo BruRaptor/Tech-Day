@@ -18,6 +18,7 @@
 <img src="https://i.imgur.com/bYkgn3s.png" alt="" width="300px" height="200px">
 <img src="https://i.imgur.com/oaRsgts.png" alt="" width="300px" height="200px">
 <img src="https://i.imgur.com/c0NTsFd.png" alt="" width="300px" height="200px">
+<img src="https://i.imgur.com/7OWFANG.png" alt="" width="300px" height="200px">
 </div>
 
 <h2>Contato:</h2>
