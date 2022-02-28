@@ -1,27 +1,28 @@
-# ProjetoParticular
+# 📝TECHDAY
+<h2>📰Em desenvolvimento</h2>
+<h2>Tecnologias usadas:</h2>
+<div>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="" width="120px" height="35px">
+<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=whit" alt="" width="120px" height="35px">
+<p>■ - Utilizado no Back-End SpringBoot local, após todos os testes foi feito um deploy no Heroku✅</p>
+<p>■ - Utilizado no Front-End Angular com BootStrap, ainda está sendo desenvolvimento ✅</p>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+<h2>Sobre o Projeto:</h2>
+<p>O projeto TECHDAY vem com ideia de colocar as notícias de tecnologia tudo em um só lugar de forma fácil e dinamica.</p>
 
-## Development server
+<div>
+<img src="https://i.imgur.com/bYkgn3s.png" alt="" width="300px" height="200px">
+<img src="https://i.imgur.com/oaRsgts.png" alt="" width="300px" height="200px">
+<img src="https://i.imgur.com/c0NTsFd.png" alt="" width="300px" height="200px">
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h2>Contato:</h2>
+<div>
+  <a href="https://linktr.ee/BruRaptor" target="_blank"><img src="https://img.icons8.com/color/480/linktree.png"alt="" width="70px" height="70px"></a>
+  <a href="https://www.linkedin.com/in/bruno-kyo/" target="_blank"><img src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Icon-Logo.wine.svg"alt="" width="70px" height="70px"></a>
+  <a href="https://www.instagram.com/brutechofc/" target="_blank"><img src="https://www.logo.wine/a/logo/Instagram/Instagram-Logo.wine.svg"alt="" width="70px" height="70px"></a>
+</div>
