@@ -11,7 +11,7 @@ import { AuthService } from '../service/auth.service';
 export class RegisterComponent implements OnInit {
 
   usuario: Usuario = new Usuario;
-  confirmaSenha: string;
+  confirmarSenha: string;
   tipoUser: string;
 
   constructor(
@@ -25,7 +25,7 @@ export class RegisterComponent implements OnInit {
   }
 
   confirmSenha(event: any){
-    this.confirmSenha = event.target.value;
+    this.confirmarSenha = event.target.value;
   }
 
   tipoUsuario(event: any){
@@ -35,12 +35,12 @@ export class RegisterComponent implements OnInit {
   cadastrar() {
     this.usuario.tipo = this.tipoUser
 
-    if(this.usuario.senha != this.confirmaSenha){
-      alert('As senhas não conferem')
+    if(this.usuario.senha != this.confirmarSenha){
+      alert('As senhas não conferem!')
     } else{
       this.servicoDeAutenticacao.register(this.usuario).subscribe((resp: Usuario) => {
         this.usuario = resp
-        this.router.navigate(['entrar'])
+        this.router.navigate(['/login'])
         alert('Parabéns! Usuário cadastrado com sucesso.')
      })
     }
