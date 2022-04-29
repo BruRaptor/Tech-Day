@@ -2,11 +2,11 @@
 <h2>📰Em desenvolvimento</h2>
 <h2>Tecnologias usadas:</h2>
 <div>
-<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="" width="120px" height="35px">
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="" width="120px" height="35px">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="" width="120px" height="35px">
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="" width="120px" height="35px">
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=whit" alt="" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="imagem-angular" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="imagem-bootstrap" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="imagem-spring" width="120px" height="35px">
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="imagem-heroku" width="120px" height="35px">
+<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=whit" alt="imagem-mysql" width="120px" height="35px">
 <p>■ - Utilizado no Back-End SpringBoot local, após todos os testes foi feito um deploy no Heroku✅</p>
 <p>■ - Utilizado no Front-End Angular com BootStrap, ainda está sendo desenvolvimento ✅</p>
 </div>
